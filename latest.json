@@ -1,0 +1,13 @@
+﻿{
+    "mandatory":  false,
+    "minSupportedVersionCode":  1,
+    "apkUrl":  "https://github.com/Dev-JeffersonMF/nexo-update/releases/download/v1.0.0/nexo-1.0.0-vc1.apk",
+    "version":  "1.0.0",
+    "notes":  "Versão inicial do NEXO com auto-atualização nativa.",
+    "package":  "com.jefferson.nexo",
+    "publishedAt":  "2026-10-31T17:33:05Z",
+    "sha256":  "PLACEHOLDER_REPLACE_WITH_REAL_SHA256",
+    "schema":  1,
+    "versionCode":  1,
+    "sizeBytes":  0
+}
