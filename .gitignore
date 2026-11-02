@@ -1,0 +1,56 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Capturas de tela do aparelho (artefato de diagnóstico, não vai para o EAS)
+captures/
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env
+.env.*
+.env*.local
+
+# O MODELO de variáveis é versionado (só tem valores de exemplo):
+# sem esta linha ele seria ignorado por `.env.*` e um clone novo não saberia
+# quais variáveis existem.
+!.env.example
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders
+#
+# O projeto Android nativo (/android) É versionado de propósito: o EAS Build
+# usa a pasta que está aqui e NÃO roda prebuild de novo. É o que garante que o
+# APK da nuvem use exatamente o mesmo código Kotlin, o mesmo AndroidManifest e
+# o mesmo build.gradle que foram testados no aparelho.
+/ios
+# /android  <- versionado (ver acima)

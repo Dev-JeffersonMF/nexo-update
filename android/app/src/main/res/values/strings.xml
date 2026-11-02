@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Nexus Assistente</string>
+  <string name="expo_system_ui_user_interface_style" translatable="false">dark</string>
+  <string name="accessibility_service_name">NEXUS Auto-Bot</string>
+  <string name="notification_listener_name">NEXUS — leitura de mensagens</string>
+  <string name="accessibility_service_description">Permite que o NEXUS interaja com outros apps (WhatsApp, YouTube, etc.) para enviar mensagens, fazer chamadas e controlar mídia automaticamente.</string>
+</resources>
